@@ -880,7 +880,7 @@ sbxhttpr.onload = function() {
           data.captions.forEach(function(item) {
           const vidTrack = document.createElement("track");
           vidTrack.kind = "captions";
-          vidTrack.src = "https://inv.tux.pizza" + item.url;
+          vidTrack.src = "https://inv.nadeko.net" + item.url;
           vidTrack.srclang = item.language_code;
           vidTrack.label = item.label;
           video.appendChild(vidTrack);

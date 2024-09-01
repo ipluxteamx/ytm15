@@ -474,7 +474,7 @@ dataModeChange();
 renderHeader();
 
 function renderCommentSection(parent, mediaType, cmSource, isCMPage){
-    var cmBaseAPIURL = 'https://inv.tux.pizza/api/v1/comments/';
+    var cmBaseAPIURL = 'https://inv.nadeko.net/api/v1/comments/';
 
     const commentSection = document.createElement("div");
     commentSection.classList.add("comment-section");
