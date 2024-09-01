@@ -250,7 +250,7 @@ metaColorElm.content = "#000000";
 }
 }
 
-APIbaseURL = "https://inv.nadeko.net/";
+APIbaseURL = "https://iv.nboeck.de/";
 APIbaseURLWatch = "https://iv.nboeck.de/";
 
 playerVideoId = "e";
