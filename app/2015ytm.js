@@ -250,11 +250,11 @@ metaColorElm.content = "#000000";
 }
 }
 
-APIbaseURL = "https://inv.tux.pizza/";
-APIbaseURLWatch = "https://invidious.jing.rocks/";
+APIbaseURL = "https://inv.nadeko.net/";
+APIbaseURLWatch = "https://inv.nadeko.net/";
 
 playerVideoId = "e";
-playerEmbedURL = "https://invidious.fi/embed/";
+playerEmbedURL = "https://inv.nadeko.net/embed/";
 playerEmbedURLEnd = "?autoplay=1&quality=dash&player_style=youtube&local=true";
 playerEmbedURLYT = "https://www.youtube.com/embed/";
 playerEmbedURLYTEnd = "?autoplay=1&enablejsapi=1&rel=0&origin=" + location.origin + "&widget_referrer=" + location.origin;
