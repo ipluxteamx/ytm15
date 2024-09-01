@@ -817,7 +817,7 @@ YTmVideoId = playerVideoId;
 
 const playerxhttpr = new XMLHttpRequest();
 /* playerxhttpr.open('GET', 'https://inv.tux.pizza/api/v1/videos/' + YTmVideoId, true); */
-playerxhttpr.open('GET', 'https://inv.nadeko.net/api/v1/videos/' + YTmVideoId, true);
+playerxhttpr.open('GET', 'https://iv.nboeck.de/api/v1/videos/' + YTmVideoId, true);
  
 playerxhttpr.send();
 
@@ -880,7 +880,7 @@ sbxhttpr.onload = function() {
           data.captions.forEach(function(item) {
           const vidTrack = document.createElement("track");
           vidTrack.kind = "captions";
-          vidTrack.src = "https://inv.nadeko.net" + item.url;
+          vidTrack.src = "https://iv.nboeck.de" + item.url;
           vidTrack.srclang = item.language_code;
           vidTrack.label = item.label;
           video.appendChild(vidTrack);

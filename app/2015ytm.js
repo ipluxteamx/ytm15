@@ -250,11 +250,11 @@ metaColorElm.content = "#000000";
 }
 }
 
-APIbaseURL = "https://inv.nadeko.net/";
-APIbaseURLWatch = "https://inv.nadeko.net/";
+APIbaseURL = "https://iv.nboeck.de/";
+APIbaseURLWatch = "https://iv.nboeck.de/";
 
 playerVideoId = "e";
-playerEmbedURL = "https://inv.nadeko.net/embed/";
+playerEmbedURL = "https://iv.nboeck.de/embed/";
 playerEmbedURLEnd = "?autoplay=1&quality=dash&player_style=youtube&local=true";
 playerEmbedURLYT = "https://www.youtube.com/embed/";
 playerEmbedURLYTEnd = "?autoplay=1&enablejsapi=1&rel=0&origin=" + location.origin + "&widget_referrer=" + location.origin;
@@ -474,7 +474,7 @@ dataModeChange();
 renderHeader();
 
 function renderCommentSection(parent, mediaType, cmSource, isCMPage){
-    var cmBaseAPIURL = 'https://inv.nadeko.net/api/v1/comments/';
+    var cmBaseAPIURL = 'https://iv.nboeck.de/api/v1/comments/';
 
     const commentSection = document.createElement("div");
     commentSection.classList.add("comment-section");
