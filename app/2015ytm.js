@@ -250,7 +250,7 @@ metaColorElm.content = "#000000";
 }
 }
 
-APIbaseURL = "https://iv.nboeck.de/";
+APIbaseURL = "https://inv.nadeko.net/";
 APIbaseURLWatch = "https://iv.nboeck.de/";
 
 playerVideoId = "e";
@@ -474,7 +474,7 @@ dataModeChange();
 renderHeader();
 
 function renderCommentSection(parent, mediaType, cmSource, isCMPage){
-    var cmBaseAPIURL = 'https://iv.nboeck.de/api/v1/comments/';
+    var cmBaseAPIURL = 'https://invidious.nerdvpn.de/api/v1/comments/';
 
     const commentSection = document.createElement("div");
     commentSection.classList.add("comment-section");
@@ -2049,7 +2049,7 @@ if (window.location.hash.split("/").join(',').split("?").join(',').split(',').sl
     }
 if (!wasPrevChannelPage) {
     pageCont.innerHTML = "";
-    title.textContent = "2015YouTube";
+    title.textContent = "YouTube";
     headerTitle.setAttribute("aria-label", _2015YT_text_string);
     headerTitle.textContent = _2015YT_text_string;
 }

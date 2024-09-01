@@ -1,6 +1,6 @@
 function renderSearchSuggestions(parent, value, sbInput) {
 const xhttpr = new XMLHttpRequest();
-xhttpr.open('GET', 'https://iv.nboeck.de/api/v1/search/suggestions?q=' + value, true);
+xhttpr.open('GET', 'https://iv.ggtyler.dev/api/v1/search/suggestions?q=' + value, true);
  
 xhttpr.send();
  
